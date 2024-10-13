@@ -1,3 +1,25 @@
+## Eye-Controlled Mouse with Blink Click (Python)
+
+**This project implements an eye-controlled mouse using Python libraries OpenCV and MediaPipe. It allows you to control the mouse cursor with eye movements and trigger a click by blinking three times.**
+
+### Functionality:
+
+* **Eye Movement Tracking:** Detects eye positions using facial landmarks.
+* **Mouse Control:** Moves the mouse cursor based on the tracked eye position.
+* **Blink Click:** Registers a mouse click after three consecutive blinks.
+
+### Libraries Used:
+
+* OpenCV (cv2): for video capture, image processing, and window display.
+* MediaPipe (mp): for facial landmark detection.
+* pyautogui: for simulating mouse clicks and movements.
+
+### Installation:
+
+1. **Install required libraries:**
+   ```bash
+   pip install opencv-python mediapipe pyautogui
+
 <h1 align="center">Hi 👋, I'm Abhay Patel</h1>
 <h3 align="center">Coder with a tint of Designing Principals</h3>
 
